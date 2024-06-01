@@ -2,7 +2,7 @@ create database bibliotech;
 use bibliotech;
 
 create table registro(
-	cod_rigistro int not null auto_increment,
+	cod_registro int not null auto_increment,
 	nome_aluno varchar(65)not null,
 	serie_aluno varchar(65)not null,
     curso_aluno varchar(65)not null,
@@ -10,7 +10,7 @@ create table registro(
     R_tombo int null,
 	data_emprestimo date null,
     data_devolucao date null,
-    primary key(cod_rigistro));
+    primary key(cod_registro));
     
 create table admusuario(
     id_admusuario int not null auto_increment,
